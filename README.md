@@ -11,39 +11,27 @@ This is a simple FTP (File Transfer Protocol) server implemented in Java. The se
 
 ## Prerequisites
 
-- Java Development Kit (JDK) installed on your system.
-- Basic understanding of Java programming and networking concepts.
+- Java Runtime Environment (JRE) installed on your system.
 
 ## Usage
 
-1. **Clone the Repository**: Clone this repository to your local machine.
+1. **Download JAR Files**: Download the `server.jar` and `client.jar` files from the [Releases](https://github.com/your-username/custom-ftp-server-java/releases) section of this repository.
+
+2. **Start the Server**: Run the server JAR file to start the FTP server.
 
 ```bash
-git clone https://github.com/your-username/custom-ftp-server-java.git
+java -jar server.jar
 ```
 
-2. **Compile the Code**: Navigate to the project directory and compile the Java files.
+3. **Connect with the Client**: Run the client JAR file to connect with the server.
 
 ```bash
-cd custom-ftp-server-java
-javac Server.java Client.java
-```
-
-3. **Start the Server**: Run the `Server` class to start the FTP server.
-
-```bash
-java Server
-```
-
-4. **Connect with the Client**: Run the `Client` class to connect with the server.
-
-```bash
-java Client <server-ip> <server-port>
+java -jar client.jar <server-ip> <server-port>
 ```
 
 Replace `<server-ip>` and `<server-port>` with the IP address and port number where the server is running.
 
-5. **Interact with the Server**: Once connected, you can use the following commands:
+4. **Interact with the Server**: Once connected, you can use the following commands:
 
 - `LIST`: Lists files available on the server.
 - `GET <filename>`: Downloads the specified file from the server.
