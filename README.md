@@ -15,7 +15,7 @@ This is a simple FTP (File Transfer Protocol) server implemented in Java. The se
 
 ## Usage
 
-1. **Download JAR Files**: Download the `server.jar` and `client.jar` files from the [Releases](https://github.com/your-username/custom-ftp-server-java/releases) section of this repository.
+1. **Download JAR Files**: Download the `server.jar` and `client.jar` files from the [Releases](https://github.com/AtharvShinde2004/FTP-Server-in-java/releases) section of this repository.
 
 2. **Start the Server**: Run the server JAR file to start the FTP server.
 
